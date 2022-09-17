@@ -5,6 +5,9 @@ body{
       background-size:cover;
       margin:0;
 }
+a{
+  color: white;
+}
 .button {
   display: inline-block;
   position: absolute;
@@ -176,13 +179,13 @@ h1{
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  background-color: green;
-  size:10px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      position: fixed;
+      width: 100%;
+      background-color: green;
+      size: 10px;
 }
 .home{
   width: 100%;
@@ -225,19 +228,20 @@ footer {
     background-color: #209400;
 }
 h1.titolo{
-  position: relative;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, 205%);
-  font-size: 64px;
-  font-family: 'Patua One', cursive;
+  position: absolute;
+  top: 18%;
+left: 32%;
+/* transform: translate(-50%, 205%); */
+font-size: 64px;
+font-family: 'Patua One', cursive;
 }
 div.box1{
   height: 20%;
-  width: 20%;
-  text-align: center;
-  position: absolute;
-  transform: translate(19%,-197%);
+    width: 20%;
+    text-align: center;
+    position: absolute;
+    top: 73%;
+    left: 4%;
   background-color: white;
   border-radius: 22px;
   border-color: #209400;
@@ -266,13 +270,14 @@ div.box4{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 img.iconaGiardino4{
-      height: 10%;
-      width: auto;
+      width: 26%;
+      top: -24%;
+      left: 37%;
       border-radius: 50%;
       background-color: white;
       position: absolute;
       opacity: 1;
-      transform: translate(1653%, -441%);
+
 }
 h3{
   margin-top: 13%;
@@ -291,22 +296,24 @@ div.box2{
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 img.iconaGiardino2{
-      height: 10%;
-      width: auto;
+      width: 26%;
+      top: -24%;
+      left: 37%;
       border-radius: 50%;
       background-color: white;
       position: absolute;
       opacity: 1;
-      transform: translate(698%, -443%);
+
 }
 img.iconaGiardino3{
-      height: 10%;
-      width: auto;
+      top: -24%;
+      width: 26%;
+      left: 37%;
       border-radius: 50%;
       background-color: white;
       position: absolute;
       opacity: 1;
-      transform: translate(1155%, -443%);
+
 }
 div.immagineBox1{
   height: 10%;
@@ -319,13 +326,15 @@ div.immagineBox1{
   border-color: #209400;
 }
 img.iconaGiardino{
-  height: 10%;
-  width: auto;
+
+  width: 26%;
+  left: 37%;
+  top: -24%;
   border-radius: 50%;
   background-color: white;
   position: absolute;
   opacity: 1;
-  transform: translate(-1770%, 670%);
+
 }
 div.primaParte{
   margin-top: 0%;
