@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+body{
+      background-image: url("");
+      background-repeat:no-repeat;
+      background-size:cover;
+      margin:0;
+}
+h1{
+  font-family: 'Patua One', cursive;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+    background-color: #209400;
+    size: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    text-shadow:  2px 2px black;
+}
+li {
+  float: left;
+  font-family: 'Patua One', cursive;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 18px;
+  text-decoration: none;
+  font-size: 30px;
+}
+div.box1{
+
+}
+li a:hover {
+  background-color: #111;
+}
+.footer{
+background-color: #209400;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  width: 50px;
+    box-shadow: 4px 4px black;
+}
+.logo2{
+  width: 45px;
+  border-radius: 50%;
+}
+img{
+  width: 100%;
+  height:auto;
+}
+<footer>
+<span class="">
+  <p class="Numero">AndreaPreatoniGiardini</p>
+  <img class="logo2" src="mani.jpg">
+  <p class="p">Email: andrea.preatoni91@gmail.com</p>
+  <p class="p">Tell: 3388182350</p>
+</footer>
